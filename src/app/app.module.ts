@@ -15,13 +15,15 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 // Services
 import { ConfigService } from './services/config.service';
 import { EmployeDetailComponent } from './pages/employe-detail/employe-detail.component';
+import { AddEmployeeComponent } from './pages/add-employee/add-employee.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    EmployeDetailComponent
+    EmployeDetailComponent,
+    AddEmployeeComponent
   ],
   imports: [
     BrowserModule,

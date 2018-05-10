@@ -23,5 +23,10 @@ export class DashboardComponent implements OnInit {
         }
       )
   }
+
+  // Go to page
+  // pageFn(id){
+  // this.route.navigate(['/location', id]);
+  // }
   
 }
